@@ -5629,6 +5629,7 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
+.col1,
 .center-block {
   display: block;
   margin-right: auto;
