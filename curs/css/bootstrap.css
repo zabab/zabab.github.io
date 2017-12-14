@@ -1,3 +1,10 @@
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -5629,7 +5636,6 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
-.col1,
 .center-block {
   display: block;
   margin-right: auto;
@@ -5776,3 +5782,4 @@ button.close {
     display: none !important;
   }
 }
+/*# sourceMappingURL=bootstrap.css.map */
