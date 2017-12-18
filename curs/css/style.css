@@ -137,22 +137,6 @@ a.book:hover,a.video:hover {
 	background: #000;
     border-bottom: 3px solid #000;
 }
-i.book1 {
-	width:40px;
-	height:35px;
-	background: url('../images/img-sprite.png') no-repeat -300px -87px;
-	display:inline-block;
-	vertical-align:middle;
-	margin-right:10px;
-}
-i.video1 {
-	width:40px;
-	height:35px;
-	background: url('../images/img-sprite.png') no-repeat -300px -50px;
-	display:inline-block;
-	vertical-align:middle;
-	margin-right:10px;
-}
 .menu {
 	position: fixed;
 	top: 82px;
@@ -251,28 +235,16 @@ i.watching1 {
 .menu ul li a.active div.cat i.watching1{
 	display:block;
 }
-i.booking {
-	width:60px;
-	height:60px;
-	background: url('../images/img-sprite.png') no-repeat -180px 0px;
+.menu ul li a:hover div.bk {
+	display:none;
+}
+.menu ul li a:hover div.bk {
 	display:block;
 }
-i.booking1 {
-	width:60px;
-	height:60px;
-	background: url('../images/img-sprite.png') no-repeat -180px -60px;
+.menu ul li a.active div.bk {
 	display:none;
 }
-.menu ul li a:hover div.bk i.booking{
-	display:none;
-}
-.menu ul li a:hover div.bk i.booking1{
-	display:block;
-}
-.menu ul li a.active div.bk i.booking{
-	display:none;
-}
-.menu ul li a.active div.bk i.booking1{
+.menu ul li a.active div.bk {
 	display:block;
 }
 i.contact {
@@ -1607,13 +1579,6 @@ font-weight: 700;
 		padding-top: 1.5em;
 		margin-right: 0%;
 	}
-	i.book1 {
-		width: 30px;
-		height: 25px;
-		background: url('../images/img-sprite.png') no-repeat -219px -63px;
-		margin-right: 5px;
-		background-size: 268px;
-	}
 	a.book {
 		font-size: 1em;
 		padding: 10px 17px 7px 11px;
@@ -1638,10 +1603,6 @@ font-weight: 700;
 		font-size: 1.1em;
 		margin-bottom: 1.2em;
 		font-weight: 400;
-	}
-	.contact_info h3 {
-		font-size: 2em;
-		margin-bottom: 0.5em;
 	}
 	.main-contact form textarea {
 		height: 175px;
@@ -1822,18 +1783,6 @@ font-weight: 700;
 		background: url('../images/img-sprite.png') no-repeat -87px -45px;
 		background-size: 266px;
 	}
-	i.booking{
-		width: 45px;
-		height: 45px;
-		background: url('../images/img-sprite.png') no-repeat -131px 0px;
-		background-size: 266px;
-	}
-	i.booking1{
-		width: 45px;
-		height: 45px;
-		background: url('../images/img-sprite.png') no-repeat -131px -45px;
-		background-size: 266px;
-	}
 	i.contact{
 		width: 45px;
 		height: 45px;
@@ -1947,18 +1896,12 @@ font-weight: 700;
 		margin-bottom: 1em;
 		font-weight: 400;
 	}
-	.contact_info h3 {
-		font-size: 1.7em;
-	}
 	.main-contact form textarea {
 		height: 140px;
 	}
 	.main-contact form input[type="submit"] {
 		font-size: 1.1em;
 		padding: 0.3em 2em;
-	}
-	.contact_info {
-		margin-top: 1.4em;
 	}
 	.blog-form input[type="button"] {
 		width: 66%;
