@@ -1,10 +1,3 @@
-/*!
- * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -2541,9 +2534,6 @@ input[type="button"].btn-block {
 .glyphicon-bookmark:before {
   content: "\e044";
 }
-.glyphicon-print:before {
-  content: "\e045";
-}
 .glyphicon-camera:before {
   content: "\e046";
 }
@@ -2588,9 +2578,6 @@ input[type="button"].btn-block {
 }
 .glyphicon-picture:before {
   content: "\e060";
-}
-.glyphicon-map-marker:before {
-  content: "\e062";
 }
 .glyphicon-adjust:before {
   content: "\e063";
@@ -5759,27 +5746,3 @@ button.close {
     display: none !important;
   }
 }
-.visible-print {
-  display: none !important;
-}
-@media print {
-  .visible-print {
-    display: block !important;
-  }
-  table.visible-print {
-    display: table;
-  }
-  tr.visible-print {
-    display: table-row !important;
-  }
-  th.visible-print,
-  td.visible-print {
-    display: table-cell !important;
-  }
-}
-@media print {
-  .hidden-print {
-    display: none !important;
-  }
-}
-/*# sourceMappingURL=bootstrap.css.map */
